@@ -1,3 +1,4 @@
+"use client";
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 
@@ -9,5 +10,5 @@ export default function Home() {
     router.push('/admin');
   }, [router]);
 
-  return null; // أو يمكنك إرجاع loading أو شيء آخر هنا إذا كنت ترغب في إظهار شيء أثناء التوجيه
+  return null; 
 }
